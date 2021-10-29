@@ -1,4 +1,5 @@
-#  Analyzing financial inclusion in Kenya, Uganda, Tanzania and Rwanda 
+#  Python Classification using Naive Bayes and KNeighbors Classifier 
+
 
 This project was generated with Python, DS Libraries and Jupyter Notebooks
 
