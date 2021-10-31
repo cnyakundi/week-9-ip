@@ -50,7 +50,7 @@ titanic['Age'] = titanic[['Age','Pclass']].apply(age_approx,axis=1)
 # Training dataset 
 
 # Splitting our dataset
-#
+
 sex = pd.get_dummies(titanic['Sex'],drop_first=True)
 embark = pd.get_dummies(titanic['Embarked'],drop_first=True)
 
@@ -122,7 +122,7 @@ plt.xlabel('K')
 plt.ylabel('Error Rate')
 
 
-#Retraining the model with best observed K Value
+# Retraining the model with best observed K Value
 
 
 # NOW WITH K=15
